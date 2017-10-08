@@ -10,6 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<a href="jstltest.jsp">Jstltest</a>
 <c:if test="${not empty param.name }">
 	<c:set var="name" scope="page" value="${param.name }"></c:set>
 	<h1>WItaj <c:out value="${pageScope.name }"></c:out></h1>
